@@ -96,11 +96,9 @@ class _ApiState extends State<Api> {
 
 
                       child: Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(10.0),
                         child:ListTile(
-
-
-                          title:Text(postlist[index].title.toString(),style: TextStyle(fontSize: 16),) ,
+                          title:Text(postlist[index].title.toString(),style: TextStyle(fontSize: 20),) ,
                           subtitle: Text(postlist[index].body.toString(),style: TextStyle(fontSize: 16),),
                           leading: Text(postlist[index].id.toString(),style: TextStyle(fontSize: 23,color: Colors.white),),
 
